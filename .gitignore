@@ -1,0 +1,63 @@
+# === Node (frontend, shared, etc.) ===
+**/node_modules/
+**/dist/
+**/.vite/
+**/.next/
+**/build/
+**/coverage/
+**/storybook-static/
+**/.turbo/
+
+# Local env files
+**/.env
+**/.env.*.local
+**/.env.local
+
+# Log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/vite-error.log*
+
+# OS/IDE-specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Python (backend) ===
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/env/
+**/.venv/
+**/venv/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.coverage
+**/htmlcov/
+**/.cache/
+
+# Database / media
+**/instance/
+**/*.sqlite3
+**/media/
+**/uploads/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebooks
+**/.ipynb_checkpoints/
+
+# === Misc ===
+*.log
+*.pid
+*.bak
+*.tmp
+*.swp
+
+# === Optional: Editor-specific ===
+**/.idea/
+**/.vscode/
